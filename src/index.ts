@@ -10,6 +10,7 @@ const resultIsPalindrome = isPalindrome.generate('makam')
 console.log(`FizzBuzz: ${resultFizzBuzz}`, '\n');
 console.log(`Palindrome: ${resultIsPalindrome}`, '\n');
 
-// ** Add a new set of rule from FizzBuzz class, uncomment below code
+// ** Add a new set FizzBuzzBazzz rule, inheritance from FizzBuzz class
+// ** Uncomment code below:
 // const resultFizzBuzzBazz = fizzBuzzBazz.generate(200, 300);
 // console.log(`FizzBuzzBazz: ${resultFizzBuzzBazz}`, '\n');
