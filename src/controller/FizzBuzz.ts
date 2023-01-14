@@ -1,6 +1,7 @@
 // Import RuleInterface and Class WordGenerator
 import { RuleInterface, WordGenerator } from '../model/WordGenerator';
 
+// Create Fizz Rule
 class FizzRule implements RuleInterface {
   matches(number: number): boolean {
     return number % 3 === 0;
@@ -11,6 +12,7 @@ class FizzRule implements RuleInterface {
   }
 }
 
+// Create Buzz Rule
 class BuzzRule implements RuleInterface {
   matches(number: number): boolean {
     return number % 5 === 0;

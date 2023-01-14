@@ -1,17 +1,15 @@
 class PalindromeGenerator {
+  // Generate input
   public generate(input: string | number) : string  {
-    return this.isPalindrome(input);
-  }
-
-  protected isPalindrome(input: string | number) {
-    if (this.palindrome(input)) {
+    if (this.isPalindrome(input)) {
       return `${input} is palindrome`
     }
 
     return `${input} is not palindrome`
   }
 
-  protected palindrome(input: string | number): boolean {
+  // Check the input is palindrome or not
+  protected isPalindrome(input: string | number) : boolean {
     let reverse;
     if (typeof input === 'number') {
       reverse = input.toString().split('').reverse().join('')
